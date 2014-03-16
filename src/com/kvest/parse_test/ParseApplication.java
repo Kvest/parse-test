@@ -11,8 +11,8 @@ import com.parse.Parse;
  * To change this template use File | Settings | File Templates.
  */
 public class ParseApplication extends Application {
-    private static final String PARSE_APPLICATION_ID = "";
-    private static final String PARSE_CLIENT_KEY = "";
+    private static final String PARSE_APPLICATION_ID = "GGfOcYqVQGdTWcKcbY3PndHyzQYcS4W8isrqeyZt";
+    private static final String PARSE_CLIENT_KEY = "nvlD6tIpbjZoMbMqAvX3Ryly8tRYQ2GqWAByb5f6";
 
     @Override
     public void onCreate() {
