@@ -1,7 +1,9 @@
 package com.kvest.parse_test;
 
 import android.app.Application;
+import com.kvest.parse_test.ui.activity.MyActivity;
 import com.parse.Parse;
+import com.parse.PushService;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,5 +22,6 @@ public class ParseApplication extends Application {
 
         //init parse
         Parse.initialize(this, PARSE_APPLICATION_ID, PARSE_CLIENT_KEY);
+        PushService.setDefaultPushCallback(this, MyActivity.class);
     }
 }
